@@ -1,8 +1,1 @@
-{
-	"data":[
-		{"name":"Apple","catergory":"fruit","upc":0,"cost":10},
-		{"name":"Banana","category":"vegetable","upc":1,"cost":1.5},
-		{"name":"Bread","category":"grain","upc":2,"cost":5},
-		{"name":"Tomato","category":"fruit","upc":3,"cost":1.25},
-	]
-}
+upcdata.json
