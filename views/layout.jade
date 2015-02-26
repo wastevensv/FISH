@@ -1,7 +1,11 @@
 doctype html
 html
   head
-    title= title
+    title FISH - #{title}
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    #wrapper
+      #head
+        h1 FISH - #{title}
+      #content
+        block content

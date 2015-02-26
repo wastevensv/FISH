@@ -10,7 +10,7 @@ function findById(source, id) {
 }
 
 var app = fortune({db: 'scoutnet'})
-.resource('product', { // Product Object
+app.resource('product', { // Product Object
 	barcode: Number,
 	expires: Date
 }).transform( 
@@ -27,10 +27,26 @@ var app = fortune({db: 'scoutnet'})
     }
 ) 
 
-.resource('list', {
+app.resource('list', {
 	name: String,
 	type: Number,
 	items: ['product']
-})
+}).transform(
+    function(req, res) {
+        if(req.params.id !== 'undefined') {
+          update = this
+          app.adapter.find('list',req.params.id).then(function(orig) {
+            if (typeof(update.items) !== 'undefined') {
+              update.items.push.apply(update.items, orig.links.items)
+              return orig 
+            }
+          })
+        }
+        return this
+    },
+    function() {
+      return this
+    }
+)
 
 module.exports = app.router

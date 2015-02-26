@@ -1,7 +1,7 @@
 extends layout
 
 block content
-	h1= title
-	#productList
-		each product in products:
-			product
+  #productList
+    each product in products
+      .entry #{product.info.name} - #{product.info.category}
+      .sub   Expires: #{product.expires.toDateString()}
