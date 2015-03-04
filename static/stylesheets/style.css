@@ -33,16 +33,8 @@ th {
   text-align:right;
 }
 
-th.standards {
-  text-align:center;
-}
-
-td.standards {
-  border: 1px solid black;
-}
-
 .nav {
-  padding:5px; 
+  padding:5px;
   border:solid 1px #aaa;
   border:none;
   border-radius: 5px;
@@ -59,7 +51,7 @@ td.standards {
 }
 
 .navh {
-  padding:5px; 
+  padding:5px;
   border:solid 1px #aaa;
   border-radius: 5px;
   border:none;
@@ -78,14 +70,14 @@ td.standards {
 
 #head {
   background-color:#1ABC9A;
-  padding:5px; 
+  padding:5px;
   border:solid 1px #aaa;
   border:none;
   border-radius: 5px;
 }
 
 #navbar {
-  padding:5px; 
+  padding:5px;
   border-radius: 5px;
   display:inline-block;
   color:#ddd;
@@ -96,7 +88,7 @@ td.standards {
 
 #content {
   background-color:#fff;
-  padding:5px; 
+  padding:5px;
   border:solid 1px #aaa;
   border-radius: 5px;
   border:none;
@@ -105,12 +97,6 @@ td.standards {
   display:block;
   margin-left:auto;
   margin-right:auto;
-}
-
-#photo {
-  width:auto;
-  float:right;
-  padding-left:5px;
 }
 
 .entry {
@@ -129,86 +115,8 @@ td.standards {
   padding-left:25px;
 }
 
-.letter {
-  text-indent:20px;
-}
-
-#pcLeft {
-  width:50%;
-  display:inline;
-}
-
-#pcRight {
-  width:50%;
-  display:inline;
-}
-
-#excelLeft {
-  width:62.65%;
-  display:inline;
-}
-
-#excelRight {
-  width:37.35%;
-  display:inline;
-}
-
-.gallery {
-  width:100%;
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
-}
-
-.roboLong {
-  width:84%;
-  display:inline;
-  vertical-align:top;
-}
-
-.roboTall{
-  width:16%;
-  display:inline;
-  vertical-align:top;
-}
-
-.frcPicHalf {
-  width:65%;
-  display:inline;
-  vertical-align:top;
-}
-
-.frcPicQuart {
-  width:17.5%;
-  display:inline;
-  vertical-align:top;
-}
-
-.quarterImg {
-  height:auto;
-  width:25%;
-  display:inline;
-  vertical-align:top;
-}
-
-#squareTopo {
-  height:auto;
-  width:auto;
-  max-width:35%;
-  display:inline;
-  vertical-align:top;
-}
-
-#longTopo {
-  height:auto;
-  width:auto;
-  max-width:65%;
-  display:inline;
-  vertical-align:top;
-}
-
 .nostyle {
   background-color:#fff;
-  padding:5px; 
+  padding:5px;
   border:none;
 }
