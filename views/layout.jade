@@ -4,12 +4,11 @@ html
     title FISH - #{title}
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    script(src="/javascripts/jquery.min.js")
     #wrapper
       #head
         h1 FISH - #{title}
       #navbar
         a(href="/").nav Home
-        each list in lists
-          a(href="/list/#{list.id}").nav #{list.name}
       #content
         block content

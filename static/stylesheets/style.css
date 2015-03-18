@@ -17,6 +17,10 @@ h2 {
   color:#444;
 }
 
+fieldset {
+  border:none;
+}
+
 a {
   color:#448;
   text-decoration: none;
